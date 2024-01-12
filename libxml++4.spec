@@ -6,12 +6,12 @@
 Summary:	C++ interface for working with XML files
 Summary(pl.UTF-8):	Interfejs C++ do pracy z plikami XML
 Name:		libxml++4
-Version:	4.0.2
+Version:	4.0.3
 Release:	1
 License:	LGPL v2.1
 Group:		Libraries
 Source0:	https://download.gnome.org/sources/libxml++/4.0/libxml++-%{version}.tar.xz
-# Source0-md5:	aee11c9bba3523294ad20cb21f9243ec
+# Source0-md5:	4fb9ca065659856aef74b37ff53e20ef
 URL:		http://libxmlplusplus.sourceforge.net/
 BuildRequires:	autoconf >= 2.59
 BuildRequires:	automake >= 1:1.11
@@ -123,7 +123,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS ChangeLog NEWS README
+%doc ChangeLog NEWS README.md
 %attr(755,root,root) %{_libdir}/libxml++-4.0.so.*.*.*
 %attr(755,root,root) %ghost %{_libdir}/libxml++-4.0.so.1
 
